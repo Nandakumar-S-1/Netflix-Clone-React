@@ -66,6 +66,8 @@
 .navbar .dropdown p{
     font-size: 13px;
     cursor: pointer;
+    text-decoration: underline;
+    color: red;
 }
 .navbar-profile:hover .dropdown{
     display: block;

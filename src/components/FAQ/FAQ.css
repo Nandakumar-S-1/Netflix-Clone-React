@@ -1,0 +1,42 @@
+.faq {
+  padding: 50px 6%;
+  background-color: black;
+  color: white;
+  /* text-align: center; */
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.faq-item {
+  background-color: #2d2d2d;
+  margin: 10px 0;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.faq-question {
+  padding: 20px;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-answer {
+  padding: 20px;
+  text-align: left;
+  background-color: #444;
+  border-top: 1px solid #666;
+}
+
+.faq-footer-text {
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #ccc;
+margin-left: 30%;
+}

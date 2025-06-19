@@ -70,11 +70,101 @@
     position: relative;
 }
 
-.banner-img{
+.hero {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* .Title {
+  position: absolute;
+  font-family: sans-serif;
+  z-index: 2;
+  font-size: 3.5rem;
+  font-weight: 800;
+  width: 80%;
+  max-width: 800px;
+  line-height: 1.2;
+}
+.title-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+} */
+
+.hero-text {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.Title {
+  font-size: 3.5rem;
+    font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.title-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+    font-family: sans-serif;
+}
+
+/* 📱 Responsive Text Scaling */
+@media (max-width: 1024px) {
+  .Title {
+    font-size: 2.5rem;
+  }
+  .title-2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Title {
+    font-size: 2rem;
+  }
+  .title-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Title {
+    font-size: 1.5rem;
+  }
+  .title-2 {
+    font-size: 0.9rem;
+  }
+}
+
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: linear-gradient(to right, transparent, black 75%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+
+/* .banner-img{
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
-}
+} */
 
 .hero-caption{
     position:absolute;
